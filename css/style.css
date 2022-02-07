@@ -1,0 +1,234 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Seymour+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oi&display=swap");
+
+@font-face {
+	font-family: "FSAlbertPro";
+	src: url("../fonts/FSAlbertPro.woff2") format("woff2"), url("../fonts/FSAlbertPro.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "FSAlbertPro";
+	src: url("../fonts/FSAlbertPro-Bold.woff2") format("woff2"), url("../fonts/FSAlbertPro-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "GoodVibesPro";
+	src: url("../fonts/GoodVibesPro.woff2") format("woff2"), url("../fonts/GoodVibesPro.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Arsenal", sans-serif;
+	font-size: 20px;
+}
+
+.big-title {
+	font-family: "Cormorant SC", sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	color: rgb(85, 33, 109);
+	text-decoration: underline;
+	text-shadow: 2px 2px 2px rgba(168, 25, 25, 0.575), 6px 6px 10px rgb(255, 109, 83);
+}
+
+.menu {
+	font-style: italic;
+	color: darkblue;
+	text-shadow: 3px 2px 5px rgb(0, 183, 255);
+}
+
+.big-list {
+	font-family: "FSAlbertPro", sans-serif;
+	font-weight: 700;
+	color: rgb(113, 160, 175);
+	text-decoration: underline;
+	text-shadow: 1px 2px 5px rgba(114, 48, 168, 0.5);
+}
+
+[title="paragraph-1"] {
+	font-family: "Dela Gothic One", sans-serif;
+	font-size: 24px;
+	color: rgb(255, 0, 0);
+	text-align: center;
+	text-shadow: 1px 1px 10px rgb(243, 15, 15);
+}
+
+.block-1 {
+	font-family: "Dela Gothic One", sans-serif;
+	color: brown;
+}
+
+.span-1 {
+	color: rgb(144, 173, 91);
+	text-decoration: underline;
+	text-shadow: 1px 1px 8px rgba(57, 255, 73, 0.651);
+}
+
+#list-2 {
+	font-family: "FSAlbertPro", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: rgba(4, 0, 255, 0.856);
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(24, 108, 156, 0.767);
+}
+
+.block-2 {
+	font-family: "FSAlbertPro", sans-serif;
+	color: tomato;
+}
+
+.span-2 {
+	text-decoration: underline;
+	color: blueviolet;
+}
+
+#list-3 {
+	font-family: "Orelega One", sans-serif;
+	font-size: 24px;
+	color: rgb(38, 96, 122);
+	text-align: center;
+	text-decoration: overline;
+	text-shadow: 4px 4px 10px rgb(73, 46, 146);
+}
+
+.span-3 {
+	text-decoration: underline;
+}
+
+.block-3 {
+	font-family: "Orelega One", sans-serif;
+	color: rgba(71, 255, 200, 0.5);
+	text-shadow: 1px 1px 1px rgba(206, 77, 77, 0.63);
+}
+
+[title="paragraph-4"] {
+	font-family: "Hachi Maru Pop", cursive;
+	font-size: 24px;
+	color: rgb(69, 36, 129);
+	text-align: center;
+	text-shadow: 0px 0px 10px rgb(4, 0, 255);
+}
+
+.block-4 {
+	font-family: "Hachi Maru Pop", cursive;
+	color: blueviolet;
+}
+
+.block-4 > p > span {
+	color: rgb(219, 40, 204);
+	text-shadow: 2px 2px 3px rgb(152, 163, 50);
+}
+
+#list-5 {
+	font-family: "Seymour One", sans-serif;
+	font-size: 24px;
+	color: rgb(189, 110, 45);
+	text-align: center;
+	text-shadow: 10px 8px 10px rgba(56, 140, 179, 0.692), 2px 2px 2px #000;
+}
+
+.block-5 {
+	font-family: "Seymour One", sans-serif;
+	text-align: center;
+	text-indent: 25px;
+	text-decoration: underline;
+	color: blueviolet;
+	text-shadow: 2px 2px 3px rgba(69, 184, 164, 0.472);
+}
+
+#list-6 {
+	font-family: "Stalinist One", cursive;
+	font-size: 24px;
+	color: deeppink;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.block-6 {
+	font-family: "Stalinist One", cursive;
+	color: darkblue;
+	letter-spacing: 2px;
+	text-align: justify;
+	text-indent: 35px;
+}
+
+#list-7 {
+	font-style: italic;
+	font-size: 24px;
+	color: rgba(128, 119, 45, 0.829);
+	text-align: center;
+	text-decoration: underline;
+	letter-spacing: 6px;
+	text-shadow: 1px 1px 5px rgb(48, 204, 42);
+}
+
+.block-7 {
+	font-style: italic;
+}
+
+.next-block-7 {
+	color: rgba(25, 0, 255, 0.733);
+	text-shadow: 1px 1px 1px rgb(130, 60, 145);
+}
+
+.next-block-7 + p + p {
+	color: rgba(0, 255, 55, 0.733);
+	text-shadow: 2px 2px 3px rgb(242, 255, 66);
+}
+
+.next-block-7 + p + p + p {
+	color: rgba(160, 45, 70, 0.733);
+	text-shadow: 2px 2px 3px rgb(153, 64, 48);
+}
+
+.next-block-7 ~ p {
+	color: rgba(0, 195, 255, 0.733);
+	text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+#list-8 {
+	font-family: "Oi", cursive;
+	font-size: 24px;
+	text-align: center;
+	line-height: 3;
+	text-shadow: 1px 1px 5px rgb(114, 195, 233);
+}
+
+.block-8 {
+	font-family: "Oi", cursive;
+	text-align: center;
+	color: rgba(181, 196, 129, 0.377);
+	text-shadow: 2px 2px 0px rgb(56, 123, 134);
+}
+
+.span.footer {
+	font-family: "GoodVibesPro", sans-serif;
+	font-size: 24px;
+	text-shadow: 1px 1px 1px rgb(59, 217, 245), 4px 4px 4px #000;
+}
